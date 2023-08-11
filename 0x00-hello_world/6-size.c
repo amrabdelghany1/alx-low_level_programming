@@ -4,7 +4,7 @@
  *
  *Description: This program for mesure the sizeof various inputs on computer"
  *
- *Return:  always 0 (Sucess)
+ *Return:  Always 0 (Success)
 */
 int main(void)
 {
