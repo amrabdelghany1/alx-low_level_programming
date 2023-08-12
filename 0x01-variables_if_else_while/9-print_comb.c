@@ -3,7 +3,7 @@
 /**
  * main - Entry poin
  *
- * Description: print the alphabit exept q and e
+ * Description: print the possible combinations of single-digit numbers
  *
  * Return: 0 (Success)
 */
@@ -17,7 +17,7 @@ int main(void)
 		putchar(digit + 48);
 		if (digit != 9)
 		{
-			putchar('.');
+			putchar(',');
 			putchar(' ');
 		}
 		digit++;
