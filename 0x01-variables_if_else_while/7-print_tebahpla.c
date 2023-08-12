@@ -3,7 +3,7 @@
 /**
  * main - Entry poin
  *
- * Description: print the alphabit exept q and e
+ * Description: print the alphabit from z to a
  *
  * Return: 0 (Success)
 */
