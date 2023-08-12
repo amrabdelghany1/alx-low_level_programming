@@ -3,7 +3,7 @@
 /**
  * main - Entry poin
  *
- * Description: print the alphabit exept q and e
+ * Description: print the numbers between 1 to 9
  *
  * Return: 0 (Success)
 */
@@ -17,6 +17,6 @@ int main(void)
 		printf("%i", a);
 		a++;
 	}
-	printf('\n');
+	printf("\n");
 	return (0);
 }
