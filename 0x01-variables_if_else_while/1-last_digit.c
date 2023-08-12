@@ -5,7 +5,7 @@
 /**
  *main - Entry Point
  *
- *Description: 
+ *Description: print last digit and some conditions 
  *
  *Return: 0 (Success)
 */
