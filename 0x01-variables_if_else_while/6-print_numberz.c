@@ -3,7 +3,7 @@
 /**
  * main - Entry poin
  *
- * Description: print the numbers with ascii code
+ * Description: print the numbers between 0 to 9 with ascii code
  *
  * Return: 0 (Success)
 */
@@ -17,6 +17,6 @@ int main(void)
 		putchar(digit + '0');
 		digit++;
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
 }
