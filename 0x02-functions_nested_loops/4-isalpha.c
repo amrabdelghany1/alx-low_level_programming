@@ -3,7 +3,7 @@
 /**
  * _isalpha - check if the input is a char
  *
- * @c to check funciton input
+ * @c: to check funciton input
  *
  * Return: returns 1 if c is a letter
  *	otherwise return 0 (Success)
