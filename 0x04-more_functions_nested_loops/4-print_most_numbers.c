@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_numbers - print number form 0 to 9
+ * print_most_numbers - print number form 0 to 9
  *		without 2 and 4 use _putchar only twice
  *
  * Return: 0 (success)
