@@ -4,7 +4,7 @@
  * print_diagonal - function that prints \ if the
  *		input is greater than 0
  *
- * @n: to check the function input	
+ * @n: to check the function input
 */
 
 void print_diagonal(int n)
@@ -18,6 +18,6 @@ void print_diagonal(int n)
 		for (line = 0; line < n; line++)
 		{
 			_putchar('\\');
-                	_putchar('\n');
+			_putchar('\n');
 		}
 }
