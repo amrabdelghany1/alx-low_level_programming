@@ -5,7 +5,7 @@
  *
  * @c: check function input
  *
- * Return: 0 (success)
+ * Return: 1 if it's Upper case otherwise 0 (success)
 */
 
 int _isupper(int c)
