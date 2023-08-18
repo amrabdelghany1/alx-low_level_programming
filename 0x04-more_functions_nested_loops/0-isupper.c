@@ -13,6 +13,6 @@ int _isupper(int c)
 	int ch;
 
 	if (ch >= 65 && ch <= 90)
-		putchar(ch);
+		return (1);
 	return (0);
 }
