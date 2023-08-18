@@ -14,5 +14,6 @@ int _isupper(int c)
 
 	if (ch >= 65 && ch <= 90)
 		return (1);
-	return (0);
+	else
+		return (0);
 }
