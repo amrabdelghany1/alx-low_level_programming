@@ -10,8 +10,6 @@
 
 int _isupper(int c)
 {
-	int ch;
-
 	if (ch >= 65 && ch <= 90)
 		return (1);
 	else
