@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * atoi - function that convert a string to an int
+ * _atoi - function that convert a string to an int
+ *		If there are no numbers in the string,
+ *		the function must return 0
  *
  * @s: checks the function input
  *
