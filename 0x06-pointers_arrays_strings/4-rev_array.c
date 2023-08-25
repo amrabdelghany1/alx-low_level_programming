@@ -5,7 +5,6 @@
  *
  * @a: check the function input
  * @n: check the function input
- *
 */
 
 void reverse_array(int *a, int n)
