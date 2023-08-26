@@ -16,10 +16,8 @@ char *cap_string(char *str)
 	while (*str)
 	{
 		if (isDelimiter(*str))
-		{
 			i = 1;
-		}
-		else if
+		else if (isLower(*str) && i)
 		{
 			*str -= 32;
 			i = 0;
