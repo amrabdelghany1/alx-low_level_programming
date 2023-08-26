@@ -1,10 +1,9 @@
 #include "main.h"
 
-/** isLower - determin whether ascii is lowercase
- *
+/**
+ * isLower - determin whether ascii is lowercase
  * @c: check the function input
- *
- * Return: 1 if true, 0 if flase
+ * Return: 1 if true, 0 if false
 */
 
 int isLower(char c)
