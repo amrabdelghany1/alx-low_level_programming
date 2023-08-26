@@ -3,28 +3,28 @@
 /**
  * cap_string - function that capitalizes all words of a string
  *
- * @str: check the input function
+ * @s: check the input function
  *
  * Return: ptr
 */
 
-char *cap_string(char *str)
+char *cap_string(char *s)
 {
-	int i = 1;
-	char *ptr = str;
+	int foundDelimit = 1;
+	char *ptr = s;
 
-	while (*str)
+	while (*s)
 	{
-		if (isDelimiter(*str))
-			i = 1;
-		else if (isLower(*str) && i)
+		if (isDelimiter(*s))
+			foundDelimit = 1;
+		else if (isLower(*s) && foundDelimit)
 		{
-			*str -= 32;
-			i = 0;
+			*s -= 32;
+			foundDelimit = 0;
 		}
 		else
-			i = 0;
-		str++;
+			foundDelimit = 0;
+		s++;
 	}
 	return (ptr);
 }
