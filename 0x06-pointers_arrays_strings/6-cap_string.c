@@ -2,7 +2,11 @@
 
 /**
  * cap_string - function that capitalizes all words of a string
- *
+ * isLower - return if the char is greater than 97
+ *		and less than or equal 122
+ * isDelimiter - check whether ascii or not
+ * @c: check the function input
+ * @c: check the function input
  * @s: check the input function
  *
  * Return: ptr
@@ -13,7 +17,7 @@ int isLower(char c)
 	return (c >= 97 && c <= 122);
 }
 
-int isDelimter(char c)
+int isDelimiter(char c)
 {
 	int i;
 	char delimiter[] = " \t\n,.!?\"(){}";
