@@ -15,7 +15,7 @@ char *cap_string(char *str)
 
 	while (*str)
 	{
-		if (isDelimiter(*s))
+		if (isDelimiter(*str))
 		{
 			i = 1;
 		}
