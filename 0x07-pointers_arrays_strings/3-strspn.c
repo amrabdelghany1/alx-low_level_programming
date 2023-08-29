@@ -1,4 +1,4 @@
-@inclue "main.h"
+#incldue "main.h"
 
 /**
  * _strspn - func that check if the char in accept
