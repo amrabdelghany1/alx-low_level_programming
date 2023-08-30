@@ -4,8 +4,6 @@
  * print_chessboard - func that print what the user insert
  *
  * @a: check the func input
- *
- * Return: new line
 */
 
 void print_chessboard(char (*a)[8])
@@ -18,6 +16,6 @@ void print_chessboard(char (*a)[8])
 		{
 			_putchar(a[i][j]);
 		}
+		_putchar('\n');
 	}
-	return ('\n');
 }
