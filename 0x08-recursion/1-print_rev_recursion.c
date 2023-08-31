@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _ptint_rev_recursion - func that print a reversed
+ * _print_rev_recursion - func that print a reversed
  *		string
  *
  * @s: input
