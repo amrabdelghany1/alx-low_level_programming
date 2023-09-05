@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
  * main - print the result of multiplcaton
  *		followed by new line
