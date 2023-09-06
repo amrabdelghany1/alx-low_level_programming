@@ -24,7 +24,7 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	els
+	else
 	{
 		for (i = 0; i < size; i++)
 			n[i] == str[i];
