@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * alloc_grid - function that returns a pointer to
- *		a 2 dimensional array of integers
+ * alloc_grid - function that returns a pointer to a
+ *		2 dimensional array of integers
  *
  * @width: input int
  * @height: input int
  *
- * Return: 0
+ * Return: tab
 */
 
 int **alloc_grid(int width, int height)
@@ -15,7 +15,8 @@ int **alloc_grid(int width, int height)
 	int **tab, i, j;
 
 	tab = malloc(sizeof(*tab) * height);
-	if (width <= 0 || height <= || tab == 0)
+
+	if (width <= 0 || height <= 0 || tab == 0)
 	{
 		return (NULL);
 	}
