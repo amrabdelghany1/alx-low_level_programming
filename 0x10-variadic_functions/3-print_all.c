@@ -42,9 +42,10 @@ void format_float(char *separator, va_list ap)
 void format_string(char *separator, va_list ap)
 {
 	char *str = va_arg(ap, char *);
+
 	switch ((int)(!str))
-		case 1:
-			str = "(nil)";
+	case 1:
+		str = "(nil)";
 	printf("%s%s", separator, str);
 }
 
