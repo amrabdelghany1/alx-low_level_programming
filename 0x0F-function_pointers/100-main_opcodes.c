@@ -1,6 +1,4 @@
 #include "function_pointers.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 /**
  * main - entry point
@@ -15,7 +13,7 @@ int main(int argc, char **argv)
 	int b;
 
 	if (argc != 2)
-		printf("Error\n", exit(1);
+		printf("Error\n"), exit(1);
 	b = atoi(argv[i]);
 	if (b < 0)
 		printf("Error\n"), exit(2);
