@@ -17,7 +17,7 @@ int _strlen(char *s)
 }
 
 /**
- * create_file - append a text in the file
+ * append_text_to_file - append a text in the file
  * @filename: the name of file created
  * @text_content: input text to write
  * Return: 1 on success 0 on failure
