@@ -20,7 +20,6 @@ int _strlen(char *s)
  * create_file - create a file
  * @filename: the name of file created
  * @text_content: input text to write
- * 
  * Return: 1 on success 0 on failure
 */
 
