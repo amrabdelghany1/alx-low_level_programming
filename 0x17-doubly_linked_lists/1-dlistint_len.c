@@ -4,7 +4,7 @@
  * dlistint_len - returns dlist length
  * @h: head ptr address
  *
- * Returns : List size
+ * Return: List size
 */
 
 size_t dlistint_len(const dlistint_t *h)
